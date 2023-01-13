@@ -1,0 +1,26 @@
+student=[15,'dhara','f',65,70]
+print(student)
+student.append(80)
+print(student)
+student.insert(3,85)
+print(student)
+student.remove(85)
+print(student)
+del student[2]
+print(student)
+student.pop()
+print(student)
+print('number of elements in list',len(student))
+print(student[0])
+print(student[1])
+print(student[2])
+list1=[3,8,1,2,6]
+print('unsorted list',list1)
+list1.sort()
+print('sorted list',list1)
+list1.sort(reverse=True)
+print('list in desending order',list1)
+list2=[3,4,56,21,23]
+print('original list is',list2)
+list2.reverse()
+print('reverse list is',list2)
